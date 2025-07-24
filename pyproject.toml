@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myplots"
+version = "0.1.0"
+description = "Reusable plotting helpers (part1 + part2)"
+authors = [{ name = "ORoxio"}]
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,27 @@
+# scratch files
+*.log
+*.tmp
+drafts/
+
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+build artefacts
+build/
+dist/
+*.egg-info/
+
+# Local virtual-env
+.venv/
+
+# IDE metadata
+.idea/
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
